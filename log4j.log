@@ -42722,3 +42722,2224 @@ cache-control: no-cache
 2024-06-16 23:49:30.279 DEBUG -TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2024-06-16 23:49:30.279 DEBUG -TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2024-06-16 23:49:30.279 DEBUG -Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2024-06-19 14:04:02.800 INFO  -Browser opened successfully.
+2024-06-19 14:04:03.349 DEBUG -Using SLF4J as the default logging framework
+2024-06-19 14:04:03.361 DEBUG --Dio.netty.leakDetection.level: simple
+2024-06-19 14:04:03.361 DEBUG --Dio.netty.leakDetection.targetRecords: 4
+2024-06-19 14:04:03.373 DEBUG -Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1af7f54a
+2024-06-19 14:04:03.437 DEBUG --Dio.netty.noUnsafe: false
+2024-06-19 14:04:03.438 DEBUG -Java version: 11
+2024-06-19 14:04:03.442 DEBUG -sun.misc.Unsafe.theUnsafe: available
+2024-06-19 14:04:03.444 DEBUG -sun.misc.Unsafe.copyMemory: available
+2024-06-19 14:04:03.445 DEBUG -sun.misc.Unsafe.storeFence: available
+2024-06-19 14:04:03.446 DEBUG -java.nio.Buffer.address: available
+2024-06-19 14:04:03.447 DEBUG -direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-06-19 14:04:03.449 DEBUG -java.nio.Bits.unaligned: available, true
+2024-06-19 14:04:03.452 DEBUG -jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @7b7fdc8
+2024-06-19 14:04:03.456 DEBUG -java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-06-19 14:04:03.456 DEBUG -sun.misc.Unsafe: available
+2024-06-19 14:04:03.511 DEBUG -maxDirectMemory: 1052770304 bytes (maybe)
+2024-06-19 14:04:03.512 DEBUG --Dio.netty.tmpdir: C:\Users\ADMIN\AppData\Local\Temp (java.io.tmpdir)
+2024-06-19 14:04:03.512 DEBUG --Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-06-19 14:04:03.513 DEBUG -Platform: Windows
+2024-06-19 14:04:03.515 DEBUG --Dio.netty.maxDirectMemory: -1 bytes
+2024-06-19 14:04:03.515 DEBUG --Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-06-19 14:04:03.523 DEBUG -java.nio.ByteBuffer.cleaner(): available
+2024-06-19 14:04:03.524 DEBUG --Dio.netty.noPreferDirect: false
+2024-06-19 14:04:03.555 DEBUG -org.jctools-core.MpscChunkedArrayQueue: available
+2024-06-19 14:04:03.651 DEBUG --Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-06-19 14:04:03.651 DEBUG --Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-06-19 14:04:04.351 DEBUG -Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+2024-06-19 14:04:04.351 DEBUG -Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-06-19 14:04:04.413 DEBUG --Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-06-19 14:04:04.467 DEBUG --Dio.netty.eventLoopThreads: 8
+2024-06-19 14:04:04.504 DEBUG --Dio.netty.noKeySetOptimization: false
+2024-06-19 14:04:04.504 DEBUG --Dio.netty.selectorAutoRebuildThreshold: 512
+2024-06-19 14:04:04.678 DEBUG --Dio.netty.allocator.numHeapArenas: 8
+2024-06-19 14:04:04.678 DEBUG --Dio.netty.allocator.numDirectArenas: 8
+2024-06-19 14:04:04.679 DEBUG --Dio.netty.allocator.pageSize: 8192
+2024-06-19 14:04:04.679 DEBUG --Dio.netty.allocator.maxOrder: 9
+2024-06-19 14:04:04.679 DEBUG --Dio.netty.allocator.chunkSize: 4194304
+2024-06-19 14:04:04.679 DEBUG --Dio.netty.allocator.smallCacheSize: 256
+2024-06-19 14:04:04.679 DEBUG --Dio.netty.allocator.normalCacheSize: 64
+2024-06-19 14:04:04.680 DEBUG --Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-06-19 14:04:04.680 DEBUG --Dio.netty.allocator.cacheTrimInterval: 8192
+2024-06-19 14:04:04.694 DEBUG --Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-06-19 14:04:04.694 DEBUG --Dio.netty.allocator.useCacheForAllThreads: false
+2024-06-19 14:04:04.694 DEBUG --Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-06-19 14:04:04.764 DEBUG --Dio.netty.allocator.type: pooled
+2024-06-19 14:04:04.764 DEBUG --Dio.netty.threadLocalDirectBufferSize: 0
+2024-06-19 14:04:04.765 DEBUG --Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-06-19 14:04:07.137 DEBUG --Dio.netty.processId: 2504 (auto-detected)
+2024-06-19 14:04:07.145 DEBUG --Djava.net.preferIPv4Stack: false
+2024-06-19 14:04:07.145 DEBUG --Djava.net.preferIPv6Addresses: false
+2024-06-19 14:04:07.819 DEBUG -Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-06-19 14:04:07.841 DEBUG -Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-06-19 14:04:07.867 DEBUG --Dio.netty.machineId: 2c:6e:85:ff:fe:a6:5f:c2 (auto-detected)
+2024-06-19 14:04:08.086 DEBUG --Dio.netty.buffer.checkAccessible: true
+2024-06-19 14:04:08.088 DEBUG --Dio.netty.buffer.checkBounds: true
+2024-06-19 14:04:08.088 DEBUG -Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2ee15e70
+2024-06-19 14:04:08.258 DEBUG -Using new Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to '/session'
+2024-06-19 14:04:08.299 DEBUG --Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-06-19 14:04:08.302 DEBUG --Dio.netty.recycler.ratio: 8
+2024-06-19 14:04:08.302 DEBUG --Dio.netty.recycler.chunkSize: 32
+2024-06-19 14:04:08.303 DEBUG --Dio.netty.recycler.blocking: false
+2024-06-19 14:04:08.303 DEBUG --Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-06-19 14:04:15.312 DEBUG -brotli4j not in the classpath; Brotli support will be unavailable.
+2024-06-19 14:04:15.317 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 254
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 880
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:15.368 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:15.851 DEBUG -Using new Channel '[id: 0x26d6b747, L:/127.0.0.1:51180 - R:localhost/127.0.0.1:51173]' for 'GET' to '/json/version'
+2024-06-19 14:04:15.862 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+host: localhost:51173
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 423
+Content-Type: application/json; charset=UTF-8
+
+2024-06-19 14:04:15.863 DEBUG -Adding key: http://localhost:51173 for channel [id: 0x26d6b747, L:/127.0.0.1:51180 - R:localhost/127.0.0.1:51173]
+2024-06-19 14:04:15.907 DEBUG --Dio.netty.initialSeedUniquifier: 0x1e98eddc088707ff
+2024-06-19 14:04:15.926 DEBUG -Using new Channel '[id: 0x9a5940a6, L:/127.0.0.1:51181 - R:localhost/127.0.0.1:51173]' for 'GET' to '/devtools/browser/bfbd0154-00ec-4a21-b4a0-4872c38ea190'
+2024-06-19 14:04:15.937 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/bfbd0154-00ec-4a21-b4a0-4872c38ea190 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: 56yU7fLcYDpjjdYMWwZ5rQ==
+sec-websocket-version: 13
+origin: http://localhost:51173
+host: localhost:51173
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: jsiFzt/EEr3KIBbXQwcd3nQLd4c=
+
+2024-06-19 14:04:16.102 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/window/maximize'
+2024-06-19 14:04:16.102 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/window/maximize'
+2024-06-19 14:04:16.187 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/window/maximize HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 51
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:16.188 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:16.196 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/timeouts'
+2024-06-19 14:04:16.196 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/timeouts'
+2024-06-19 14:04:16.200 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/timeouts HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:16.201 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:16.264 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/url'
+2024-06-19 14:04:16.265 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/url'
+2024-06-19 14:04:16.398 DEBUG -Entry count for : http://localhost:51173 : 1
+2024-06-19 14:04:17.501 DEBUG -Entry count for : http://localhost:51173 : 1
+2024-06-19 14:04:18.599 DEBUG -Entry count for : http://localhost:51173 : 1
+2024-06-19 14:04:18.649 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/url HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 73
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:18.650 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:18.666 INFO  -URL opened successfully.
+2024-06-19 14:04:18.702 DEBUG -Attempting to click number: 5
+2024-06-19 14:04:18.711 DEBUG -Calculator Screen Page Object initialized.
+2024-06-19 14:04:18.714 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:18.715 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:18.960 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:18.961 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:18.973 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.9/click'
+2024-06-19 14:04:18.973 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.9/click'
+2024-06-19 14:04:19.317 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.9/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:19.318 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:19.320 DEBUG -Attempting to click number: 5
+2024-06-19 14:04:19.323 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:19.324 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:19.350 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:19.350 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:19.353 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.9/click'
+2024-06-19 14:04:19.353 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.9/click'
+2024-06-19 14:04:19.530 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.9/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:19.531 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:19.535 DEBUG -Attempting to click number: 5
+2024-06-19 14:04:19.540 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:19.540 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:19.597 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:19.597 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:19.608 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.9/click'
+2024-06-19 14:04:19.608 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.9/click'
+2024-06-19 14:04:19.700 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.9/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:19.701 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:19.702 DEBUG -Number entered: 555
+2024-06-19 14:04:19.703 DEBUG -Entry count for : http://localhost:51173 : 1
+2024-06-19 14:04:19.704 DEBUG -Entry count for : http://localhost:39785 : 1
+2024-06-19 14:04:19.713 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:19.714 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:19.751 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:19.752 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:19.755 DEBUG -Clicked the addition button
+2024-06-19 14:04:19.765 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.11/click'
+2024-06-19 14:04:19.766 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.11/click'
+2024-06-19 14:04:19.895 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.11/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:19.895 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:19.899 DEBUG -Attempting to click number: 6
+2024-06-19 14:04:19.901 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:19.902 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:19.932 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:19.932 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:19.941 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.13/click'
+2024-06-19 14:04:19.941 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.13/click'
+2024-06-19 14:04:20.101 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.13/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:20.102 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:20.107 DEBUG -Attempting to click number: 6
+2024-06-19 14:04:20.112 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:20.113 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:20.134 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:20.135 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:20.139 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.13/click'
+2024-06-19 14:04:20.139 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.13/click'
+2024-06-19 14:04:20.213 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.13/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:20.213 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:20.214 DEBUG -Attempting to click number: 6
+2024-06-19 14:04:20.216 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:20.217 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:20.233 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:20.233 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:20.237 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.13/click'
+2024-06-19 14:04:20.237 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.13/click'
+2024-06-19 14:04:20.305 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.13/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:20.306 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:20.308 DEBUG -Number entered: 666
+2024-06-19 14:04:20.315 DEBUG -Clicking the equals button: =
+2024-06-19 14:04:20.319 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:20.319 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:20.350 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 67
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:20.351 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:20.354 DEBUG -Clicked the equals button
+2024-06-19 14:04:20.357 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.15/click'
+2024-06-19 14:04:20.357 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.15/click'
+2024-06-19 14:04:20.454 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.15/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:20.455 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:20.466 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'POST' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:20.469 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for POST '/session/d61da40992d17e00c8b090523c76b720/element'
+2024-06-19 14:04:20.501 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/d61da40992d17e00c8b090523c76b720/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 65
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:20.501 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:20.505 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'GET' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.17/text'
+2024-06-19 14:04:20.506 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for GET '/session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.17/text'
+2024-06-19 14:04:20.580 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/d61da40992d17e00c8b090523c76b720/element/f.11834DC84600175614756CA2DA51B03C.d.48FEC04F5A895814271654B2D472ABA3.e.17/text HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 16
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:20.581 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:20.588 DEBUG -Result obtained: 1221
+2024-06-19 14:04:20.588 INFO  -Expected result: 1221, Actual result: 1221
+2024-06-19 14:04:20.598 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'DELETE' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720/window'
+2024-06-19 14:04:20.599 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for DELETE '/session/d61da40992d17e00c8b090523c76b720/window'
+2024-06-19 14:04:20.804 DEBUG -Entry count for : http://localhost:51173 : 1
+2024-06-19 14:04:21.173 DEBUG -Unexpected I/O exception on channel [id: 0x26d6b747, L:/127.0.0.1:51180 - R:localhost/127.0.0.1:51173]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024-06-19 14:04:21.180 DEBUG -Unexpected I/O exception on channel [id: 0x9a5940a6, L:/127.0.0.1:51181 - R:localhost/127.0.0.1:51173]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024-06-19 14:04:21.186 DEBUG -Closing Channel [id: 0x26d6b747, L:/127.0.0.1:51180 - R:localhost/127.0.0.1:51173] 
+2024-06-19 14:04:21.189 DEBUG -Trying to recover from dead Channel: [id: 0x9a5940a6, L:/127.0.0.1:51181 - R:localhost/127.0.0.1:51173]
+2024-06-19 14:04:21.190 DEBUG -Channel Closed: [id: 0x9a5940a6, L:/127.0.0.1:51181 ! R:localhost/127.0.0.1:51173] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@1d38f6fc,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@63c0861e,
+	future=java.util.concurrent.CompletableFuture@2eb12de9[Completed normally],
+	uri=ws://localhost:51173/devtools/browser/bfbd0154-00ec-4a21-b4a0-4872c38ea190,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1718786061187}
+2024-06-19 14:04:21.194 DEBUG -Closing Channel [id: 0x9a5940a6, L:/127.0.0.1:51181 ! R:localhost/127.0.0.1:51173] 
+2024-06-19 14:04:21.195 DEBUG -Channel Closed: [id: 0x26d6b747, L:/127.0.0.1:51180 ! R:localhost/127.0.0.1:51173] with attribute DISCARD
+2024-06-19 14:04:21.235 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/d61da40992d17e00c8b090523c76b720/window HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:21.235 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:21.267 DEBUG -Using pooled Channel '[id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]' for 'DELETE' to 'http://localhost:39785/session/d61da40992d17e00c8b090523c76b720'
+2024-06-19 14:04:21.268 DEBUG -Using open Channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785] for DELETE '/session/d61da40992d17e00c8b090523c76b720'
+2024-06-19 14:04:21.751 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/d61da40992d17e00c8b090523c76b720 HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:39785
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:21.752 DEBUG -Adding key: http://localhost:39785 for channel [id: 0x3916a499, L:/127.0.0.1:51172 - R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:21.757 DEBUG -Channel Closed: [id: 0x3916a499, L:/127.0.0.1:51172 ! R:localhost/127.0.0.1:39785] with attribute DISCARD
+2024-06-19 14:04:21.893 INFO  -Browser opened successfully.
+2024-06-19 14:04:21.907 DEBUG -Entry count for : http://localhost:51173 : 1
+2024-06-19 14:04:21.907 DEBUG -Entry count for : http://localhost:39785 : 1
+2024-06-19 14:04:21.907 DEBUG -Adding Candidate expired Channel [id: 0x26d6b747, L:/127.0.0.1:51180 ! R:localhost/127.0.0.1:51173] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-06-19 14:04:21.908 DEBUG -Closing Idle Channel [id: 0x26d6b747, L:/127.0.0.1:51180 ! R:localhost/127.0.0.1:51173]
+2024-06-19 14:04:21.908 DEBUG -Adding Candidate expired Channel [id: 0x3916a499, L:/127.0.0.1:51172 ! R:localhost/127.0.0.1:39785] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-06-19 14:04:21.909 DEBUG -Closing Idle Channel [id: 0x3916a499, L:/127.0.0.1:51172 ! R:localhost/127.0.0.1:39785]
+2024-06-19 14:04:21.909 DEBUG -Closed 2 connections out of 2 in 2 ms
+2024-06-19 14:04:22.357 DEBUG -Using new Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to '/session'
+2024-06-19 14:04:25.476 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 254
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 881
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:25.477 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:25.529 DEBUG -Using new Channel '[id: 0x527288bd, L:/127.0.0.1:51201 - R:localhost/127.0.0.1:51195]' for 'GET' to '/json/version'
+2024-06-19 14:04:25.538 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+host: localhost:51195
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 423
+Content-Type: application/json; charset=UTF-8
+
+2024-06-19 14:04:25.539 DEBUG -Adding key: http://localhost:51195 for channel [id: 0x527288bd, L:/127.0.0.1:51201 - R:localhost/127.0.0.1:51195]
+2024-06-19 14:04:25.554 DEBUG -Using new Channel '[id: 0xeb450421, L:/127.0.0.1:51202 - R:localhost/127.0.0.1:51195]' for 'GET' to '/devtools/browser/b03dfb67-2608-4015-aefc-de48a13d0a70'
+2024-06-19 14:04:25.562 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/b03dfb67-2608-4015-aefc-de48a13d0a70 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: X7cv9s5mkLHWJzaCUdIl0g==
+sec-websocket-version: 13
+origin: http://localhost:51195
+host: localhost:51195
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: ZtqLux61ziCnleopbethlFyx2lg=
+
+2024-06-19 14:04:25.616 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/window/maximize'
+2024-06-19 14:04:25.616 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/window/maximize'
+2024-06-19 14:04:25.806 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/window/maximize HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 51
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:25.807 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:25.821 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/timeouts'
+2024-06-19 14:04:25.821 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/timeouts'
+2024-06-19 14:04:25.867 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/timeouts HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:25.868 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:25.887 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/url'
+2024-06-19 14:04:25.888 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/url'
+2024-06-19 14:04:26.308 DEBUG -Entry count for : http://localhost:51195 : 1
+2024-06-19 14:04:27.047 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/url HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 73
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.048 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.053 INFO  -URL opened successfully.
+2024-06-19 14:04:27.054 DEBUG -Attempting to click number: 7
+2024-06-19 14:04:27.056 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.056 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.214 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.214 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.218 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click'
+2024-06-19 14:04:27.218 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click'
+2024-06-19 14:04:27.397 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.397 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.398 DEBUG -Entry count for : http://localhost:51195 : 1
+2024-06-19 14:04:27.399 DEBUG -Entry count for : http://localhost:20852 : 1
+2024-06-19 14:04:27.400 DEBUG -Attempting to click number: 7
+2024-06-19 14:04:27.403 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.403 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.424 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.424 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.430 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click'
+2024-06-19 14:04:27.430 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click'
+2024-06-19 14:04:27.502 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.503 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.504 DEBUG -Attempting to click number: 7
+2024-06-19 14:04:27.506 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.506 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.527 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.528 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.531 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click'
+2024-06-19 14:04:27.531 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click'
+2024-06-19 14:04:27.596 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.596 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.597 DEBUG -Attempting to click number: 7
+2024-06-19 14:04:27.599 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.599 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.615 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.615 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.618 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click'
+2024-06-19 14:04:27.619 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click'
+2024-06-19 14:04:27.688 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.4/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.689 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.690 DEBUG -Number entered: 7777
+2024-06-19 14:04:27.696 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.697 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.721 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.722 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.723 DEBUG -Clicked the addition button
+2024-06-19 14:04:27.726 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.8/click'
+2024-06-19 14:04:27.726 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.8/click'
+2024-06-19 14:04:27.815 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.8/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.816 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.818 DEBUG -Attempting to click number: 0
+2024-06-19 14:04:27.820 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.820 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.845 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.845 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.848 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.10/click'
+2024-06-19 14:04:27.848 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.10/click'
+2024-06-19 14:04:27.927 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.10/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.928 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.930 DEBUG -Number entered: 0
+2024-06-19 14:04:27.931 DEBUG -Clicking the equals button: =
+2024-06-19 14:04:27.933 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.933 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:27.955 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 67
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:27.956 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:27.957 DEBUG -Clicked the equals button
+2024-06-19 14:04:27.960 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.12/click'
+2024-06-19 14:04:27.960 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.12/click'
+2024-06-19 14:04:28.029 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.12/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:28.030 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:28.034 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'POST' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:28.035 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for POST '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element'
+2024-06-19 14:04:28.061 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 65
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:28.062 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:28.064 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'GET' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.14/text'
+2024-06-19 14:04:28.065 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for GET '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.14/text'
+2024-06-19 14:04:28.092 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/db5a68fa9deb8ce29cb2cc5e07c59d18/element/f.D083E2DCB95D63F9295D3A18E9350D0F.d.F7D871BE8F9C2B9FE574BEAABF9C9E0B.e.14/text HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 16
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:28.093 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:28.094 DEBUG -Result obtained: 7777
+2024-06-19 14:04:28.094 INFO  -Expected result: 7777, Actual result: 7777
+2024-06-19 14:04:28.096 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'DELETE' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18/window'
+2024-06-19 14:04:28.096 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for DELETE '/session/db5a68fa9deb8ce29cb2cc5e07c59d18/window'
+2024-06-19 14:04:28.429 DEBUG -Unexpected I/O exception on channel [id: 0x527288bd, L:/127.0.0.1:51201 - R:localhost/127.0.0.1:51195]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024-06-19 14:04:28.429 DEBUG -Unexpected I/O exception on channel [id: 0xeb450421, L:/127.0.0.1:51202 - R:localhost/127.0.0.1:51195]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024-06-19 14:04:28.429 DEBUG -Closing Channel [id: 0x527288bd, L:/127.0.0.1:51201 - R:localhost/127.0.0.1:51195] 
+2024-06-19 14:04:28.430 DEBUG -Trying to recover from dead Channel: [id: 0xeb450421, L:/127.0.0.1:51202 - R:localhost/127.0.0.1:51195]
+2024-06-19 14:04:28.430 DEBUG -Channel Closed: [id: 0x527288bd, L:/127.0.0.1:51201 ! R:localhost/127.0.0.1:51195] with attribute DISCARD
+2024-06-19 14:04:28.430 DEBUG -Channel Closed: [id: 0xeb450421, L:/127.0.0.1:51202 ! R:localhost/127.0.0.1:51195] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@6d36b874,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@2df952cc,
+	future=java.util.concurrent.CompletableFuture@5c9114f6[Completed normally],
+	uri=ws://localhost:51195/devtools/browser/b03dfb67-2608-4015-aefc-de48a13d0a70,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1718786068430}
+2024-06-19 14:04:28.431 DEBUG -Closing Channel [id: 0xeb450421, L:/127.0.0.1:51202 ! R:localhost/127.0.0.1:51195] 
+2024-06-19 14:04:28.469 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/db5a68fa9deb8ce29cb2cc5e07c59d18/window HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:28.469 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:28.493 DEBUG -Using pooled Channel '[id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]' for 'DELETE' to 'http://localhost:20852/session/db5a68fa9deb8ce29cb2cc5e07c59d18'
+2024-06-19 14:04:28.495 DEBUG -Using open Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852] for DELETE '/session/db5a68fa9deb8ce29cb2cc5e07c59d18'
+2024-06-19 14:04:28.506 DEBUG -Entry count for : http://localhost:51195 : 1
+2024-06-19 14:04:28.506 DEBUG -Adding Candidate expired Channel [id: 0x527288bd, L:/127.0.0.1:51201 ! R:localhost/127.0.0.1:51195] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-06-19 14:04:28.507 DEBUG -Closing Idle Channel [id: 0x527288bd, L:/127.0.0.1:51201 ! R:localhost/127.0.0.1:51195]
+2024-06-19 14:04:28.507 DEBUG -Closed 1 connections out of 1 in 1 ms
+2024-06-19 14:04:28.885 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/db5a68fa9deb8ce29cb2cc5e07c59d18 HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:20852
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:28.886 DEBUG -Adding key: http://localhost:20852 for channel [id: 0x32ddd95f, L:/127.0.0.1:51193 - R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:28.891 DEBUG -Channel Closed: [id: 0x32ddd95f, L:/127.0.0.1:51193 ! R:localhost/127.0.0.1:20852] with attribute DISCARD
+2024-06-19 14:04:29.031 INFO  -Browser opened successfully.
+2024-06-19 14:04:29.505 DEBUG -Using new Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to '/session'
+2024-06-19 14:04:29.604 DEBUG -Entry count for : http://localhost:20852 : 1
+2024-06-19 14:04:29.604 DEBUG -Adding Candidate expired Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 ! R:localhost/127.0.0.1:20852] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-06-19 14:04:29.604 DEBUG -Closing Idle Channel [id: 0x32ddd95f, L:/127.0.0.1:51193 ! R:localhost/127.0.0.1:20852]
+2024-06-19 14:04:29.605 DEBUG -Closed 1 connections out of 1 in 1 ms
+2024-06-19 14:04:31.495 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 254
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 882
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:31.495 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:31.532 DEBUG -Using new Channel '[id: 0x2be813b6, L:/127.0.0.1:51222 - R:localhost/127.0.0.1:51216]' for 'GET' to '/json/version'
+2024-06-19 14:04:31.538 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+host: localhost:51216
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 423
+Content-Type: application/json; charset=UTF-8
+
+2024-06-19 14:04:31.538 DEBUG -Adding key: http://localhost:51216 for channel [id: 0x2be813b6, L:/127.0.0.1:51222 - R:localhost/127.0.0.1:51216]
+2024-06-19 14:04:31.553 DEBUG -Using new Channel '[id: 0xd33ac848, L:/127.0.0.1:51223 - R:localhost/127.0.0.1:51216]' for 'GET' to '/devtools/browser/d9b707d0-12d2-4aaa-8e73-8d96afcf52d1'
+2024-06-19 14:04:31.555 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/d9b707d0-12d2-4aaa-8e73-8d96afcf52d1 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: aCm+pfS/6sBCJAweAD571A==
+sec-websocket-version: 13
+origin: http://localhost:51216
+host: localhost:51216
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: ksZLiu46EbTxD+zmNdlEeOEYtv4=
+
+2024-06-19 14:04:31.583 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/window/maximize'
+2024-06-19 14:04:31.588 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/window/maximize'
+2024-06-19 14:04:31.750 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/window/maximize HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 51
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:31.751 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:31.754 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/timeouts'
+2024-06-19 14:04:31.755 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/timeouts'
+2024-06-19 14:04:31.767 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/timeouts HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:31.767 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:31.770 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/url'
+2024-06-19 14:04:31.771 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/url'
+2024-06-19 14:04:31.806 DEBUG -Entry count for : http://localhost:51216 : 1
+2024-06-19 14:04:32.899 DEBUG -Entry count for : http://localhost:51216 : 1
+2024-06-19 14:04:33.296 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/url HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 73
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:33.296 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:33.297 INFO  -URL opened successfully.
+2024-06-19 14:04:33.299 DEBUG -Attempting to click number: 0
+2024-06-19 14:04:33.301 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:33.301 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:33.452 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:33.452 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:33.455 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.3/click'
+2024-06-19 14:04:33.455 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.3/click'
+2024-06-19 14:04:33.717 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.3/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:33.717 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:33.719 DEBUG -Number entered: 0
+2024-06-19 14:04:33.724 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:33.724 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:33.760 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:33.760 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:33.761 DEBUG -Clicked the addition button
+2024-06-19 14:04:33.766 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.7/click'
+2024-06-19 14:04:33.766 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.7/click'
+2024-06-19 14:04:33.878 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.7/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:33.879 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:33.884 DEBUG -Attempting to click number: 2
+2024-06-19 14:04:33.886 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:33.886 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:33.921 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:33.922 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:33.934 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click'
+2024-06-19 14:04:33.934 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click'
+2024-06-19 14:04:34.001 DEBUG -Entry count for : http://localhost:51216 : 1
+2024-06-19 14:04:34.045 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.045 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.047 DEBUG -Attempting to click number: 2
+2024-06-19 14:04:34.049 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.049 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.072 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.073 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.080 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click'
+2024-06-19 14:04:34.080 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click'
+2024-06-19 14:04:34.164 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.164 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.165 DEBUG -Attempting to click number: 2
+2024-06-19 14:04:34.168 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.168 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.187 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.188 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.196 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click'
+2024-06-19 14:04:34.197 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click'
+2024-06-19 14:04:34.271 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.271 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.272 DEBUG -Attempting to click number: 2
+2024-06-19 14:04:34.273 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.273 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.288 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.288 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.291 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click'
+2024-06-19 14:04:34.292 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click'
+2024-06-19 14:04:34.355 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.9/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.355 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.356 DEBUG -Number entered: 2222
+2024-06-19 14:04:34.357 DEBUG -Clicking the equals button: =
+2024-06-19 14:04:34.361 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.361 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.385 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 67
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.386 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.388 DEBUG -Clicked the equals button
+2024-06-19 14:04:34.390 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.11/click'
+2024-06-19 14:04:34.390 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.11/click'
+2024-06-19 14:04:34.563 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.11/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.564 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.574 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'POST' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.575 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for POST '/session/be78903247341b6d278ed961020d16b0/element'
+2024-06-19 14:04:34.639 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/be78903247341b6d278ed961020d16b0/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 65
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.639 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.643 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'GET' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.13/text'
+2024-06-19 14:04:34.643 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for GET '/session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.13/text'
+2024-06-19 14:04:34.680 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/be78903247341b6d278ed961020d16b0/element/f.C716A16921675D80AFBC1CB5341F2C1A.d.299C4A04A888F77641AE322D0CC2E971.e.13/text HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 15
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:34.681 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:34.715 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'DELETE' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0/window'
+2024-06-19 14:04:34.716 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for DELETE '/session/be78903247341b6d278ed961020d16b0/window'
+2024-06-19 14:04:35.098 DEBUG -Entry count for : http://localhost:51216 : 1
+2024-06-19 14:04:35.415 DEBUG -Unexpected I/O exception on channel [id: 0x2be813b6, L:/127.0.0.1:51222 - R:localhost/127.0.0.1:51216]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024-06-19 14:04:35.415 DEBUG -Unexpected I/O exception on channel [id: 0xd33ac848, L:/127.0.0.1:51223 - R:localhost/127.0.0.1:51216]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024-06-19 14:04:35.417 DEBUG -Trying to recover from dead Channel: [id: 0xd33ac848, L:/127.0.0.1:51223 - R:localhost/127.0.0.1:51216]
+2024-06-19 14:04:35.416 DEBUG -Closing Channel [id: 0x2be813b6, L:/127.0.0.1:51222 - R:localhost/127.0.0.1:51216] 
+2024-06-19 14:04:35.417 DEBUG -Channel Closed: [id: 0xd33ac848, L:/127.0.0.1:51223 ! R:localhost/127.0.0.1:51216] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@792e81d1,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@232a4e58,
+	future=java.util.concurrent.CompletableFuture@7d1aad7d[Completed normally],
+	uri=ws://localhost:51216/devtools/browser/d9b707d0-12d2-4aaa-8e73-8d96afcf52d1,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1718786075417}
+2024-06-19 14:04:35.417 DEBUG -Closing Channel [id: 0xd33ac848, L:/127.0.0.1:51223 ! R:localhost/127.0.0.1:51216] 
+2024-06-19 14:04:35.417 DEBUG -Channel Closed: [id: 0x2be813b6, L:/127.0.0.1:51222 ! R:localhost/127.0.0.1:51216] with attribute DISCARD
+2024-06-19 14:04:35.468 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/be78903247341b6d278ed961020d16b0/window HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:35.468 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:35.473 DEBUG -Using pooled Channel '[id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]' for 'DELETE' to 'http://localhost:27846/session/be78903247341b6d278ed961020d16b0'
+2024-06-19 14:04:35.475 DEBUG -Using open Channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846] for DELETE '/session/be78903247341b6d278ed961020d16b0'
+2024-06-19 14:04:35.856 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/be78903247341b6d278ed961020d16b0 HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:27846
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:35.857 DEBUG -Adding key: http://localhost:27846 for channel [id: 0x1b075646, L:/127.0.0.1:51215 - R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:35.866 DEBUG -Channel Closed: [id: 0x1b075646, L:/127.0.0.1:51215 ! R:localhost/127.0.0.1:27846] with attribute DISCARD
+2024-06-19 14:04:35.989 INFO  -Browser opened successfully.
+2024-06-19 14:04:36.211 DEBUG -Entry count for : http://localhost:51216 : 1
+2024-06-19 14:04:36.211 DEBUG -Entry count for : http://localhost:27846 : 1
+2024-06-19 14:04:36.211 DEBUG -Adding Candidate expired Channel [id: 0x2be813b6, L:/127.0.0.1:51222 ! R:localhost/127.0.0.1:51216] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-06-19 14:04:36.211 DEBUG -Closing Idle Channel [id: 0x2be813b6, L:/127.0.0.1:51222 ! R:localhost/127.0.0.1:51216]
+2024-06-19 14:04:36.211 DEBUG -Adding Candidate expired Channel [id: 0x1b075646, L:/127.0.0.1:51215 ! R:localhost/127.0.0.1:27846] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-06-19 14:04:36.211 DEBUG -Closing Idle Channel [id: 0x1b075646, L:/127.0.0.1:51215 ! R:localhost/127.0.0.1:27846]
+2024-06-19 14:04:36.211 DEBUG -Closed 2 connections out of 2 in 0 ms
+2024-06-19 14:04:36.299 DEBUG -Using new Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to '/session'
+2024-06-19 14:04:38.263 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 254
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 882
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:38.263 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:38.320 DEBUG -Using new Channel '[id: 0x46815ab9, L:/127.0.0.1:51242 - R:localhost/127.0.0.1:51236]' for 'GET' to '/json/version'
+2024-06-19 14:04:38.322 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+host: localhost:51236
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Length: 423
+Content-Type: application/json; charset=UTF-8
+
+2024-06-19 14:04:38.322 DEBUG -Adding key: http://localhost:51236 for channel [id: 0x46815ab9, L:/127.0.0.1:51242 - R:localhost/127.0.0.1:51236]
+2024-06-19 14:04:38.330 DEBUG -Using new Channel '[id: 0x301e8750, L:/127.0.0.1:51243 - R:localhost/127.0.0.1:51236]' for 'GET' to '/devtools/browser/1a73f5f7-0632-4089-9de3-c48d07926142'
+2024-06-19 14:04:38.332 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/1a73f5f7-0632-4089-9de3-c48d07926142 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: 4h1ugr5FFPIh0mqAZfobtQ==
+sec-websocket-version: 13
+origin: http://localhost:51236
+host: localhost:51236
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: loqE15B9WdecPnmBmphkyTYODh4=
+
+2024-06-19 14:04:38.359 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/window/maximize'
+2024-06-19 14:04:38.360 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/window/maximize'
+2024-06-19 14:04:38.432 DEBUG -Entry count for : http://localhost:51236 : 1
+2024-06-19 14:04:38.473 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/window/maximize HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 51
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:38.475 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:38.482 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/timeouts'
+2024-06-19 14:04:38.482 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/timeouts'
+2024-06-19 14:04:38.485 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/timeouts HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:38.485 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:38.489 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/url'
+2024-06-19 14:04:38.489 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/url'
+2024-06-19 14:04:39.110 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/url HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 73
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:39.110 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:39.115 INFO  -URL opened successfully.
+2024-06-19 14:04:39.118 DEBUG -Attempting to click number: 0
+2024-06-19 14:04:39.121 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:39.122 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:39.201 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:39.202 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:39.206 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.4/click'
+2024-06-19 14:04:39.206 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.4/click'
+2024-06-19 14:04:39.352 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.4/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:39.353 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:39.354 DEBUG -Number entered: 0
+2024-06-19 14:04:39.362 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:39.362 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:39.397 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:39.398 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:39.399 DEBUG -Clicked the addition button
+2024-06-19 14:04:39.402 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.8/click'
+2024-06-19 14:04:39.402 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.8/click'
+2024-06-19 14:04:39.497 DEBUG -Entry count for : http://localhost:51236 : 1
+2024-06-19 14:04:39.672 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.8/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:39.673 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:39.676 DEBUG -Attempting to click number: 0
+2024-06-19 14:04:39.680 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:39.680 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:39.706 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 125
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:39.706 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:39.710 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.4/click'
+2024-06-19 14:04:39.711 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.4/click'
+2024-06-19 14:04:39.799 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.4/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:39.799 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:39.801 DEBUG -Number entered: 0
+2024-06-19 14:04:39.803 DEBUG -Clicking the equals button: =
+2024-06-19 14:04:39.805 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:39.805 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:39.846 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 67
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:39.846 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:39.848 DEBUG -Clicked the equals button
+2024-06-19 14:04:39.850 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.10/click'
+2024-06-19 14:04:39.850 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.10/click'
+2024-06-19 14:04:39.959 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.10/click HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:39.960 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:39.966 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'POST' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:39.969 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for POST '/session/c0b06ab08185d46958c855b8d0b77eab/element'
+2024-06-19 14:04:40.001 DEBUG -
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/c0b06ab08185d46958c855b8d0b77eab/element HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Length: 65
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 126
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:40.001 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:40.003 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'GET' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.12/text'
+2024-06-19 14:04:40.004 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for GET '/session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.12/text'
+2024-06-19 14:04:40.109 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/c0b06ab08185d46958c855b8d0b77eab/element/f.F483B1AAC6D9DD98834F02C101161AE7.d.DA6639132F90A8C8BB4139EC900CF39B.e.12/text HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 15
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:40.110 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:40.119 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'DELETE' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab/window'
+2024-06-19 14:04:40.119 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for DELETE '/session/c0b06ab08185d46958c855b8d0b77eab/window'
+2024-06-19 14:04:40.616 DEBUG -Entry count for : http://localhost:51236 : 1
+2024-06-19 14:04:40.723 DEBUG -Unexpected I/O exception on channel [id: 0x46815ab9, L:/127.0.0.1:51242 - R:localhost/127.0.0.1:51236]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024-06-19 14:04:40.724 DEBUG -Closing Channel [id: 0x46815ab9, L:/127.0.0.1:51242 - R:localhost/127.0.0.1:51236] 
+2024-06-19 14:04:40.725 DEBUG -Channel Closed: [id: 0x46815ab9, L:/127.0.0.1:51242 ! R:localhost/127.0.0.1:51236] with attribute DISCARD
+2024-06-19 14:04:40.727 DEBUG -Unexpected I/O exception on channel [id: 0x301e8750, L:/127.0.0.1:51243 - R:localhost/127.0.0.1:51236]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:356)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2024-06-19 14:04:40.727 DEBUG -Trying to recover from dead Channel: [id: 0x301e8750, L:/127.0.0.1:51243 - R:localhost/127.0.0.1:51236]
+2024-06-19 14:04:40.728 DEBUG -Channel Closed: [id: 0x301e8750, L:/127.0.0.1:51243 ! R:localhost/127.0.0.1:51236] with attribute NettyResponseFuture{currentRetry=0,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@6e24cb7e,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@5ea015f2,
+	future=java.util.concurrent.CompletableFuture@80c8289[Completed normally],
+	uri=ws://localhost:51236/devtools/browser/1a73f5f7-0632-4089-9de3-c48d07926142,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1718786080727}
+2024-06-19 14:04:40.728 DEBUG -Closing Channel [id: 0x301e8750, L:/127.0.0.1:51243 ! R:localhost/127.0.0.1:51236] 
+2024-06-19 14:04:40.900 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/c0b06ab08185d46958c855b8d0b77eab/window HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 12
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:40.902 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:40.906 DEBUG -Using pooled Channel '[id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]' for 'DELETE' to 'http://localhost:40393/session/c0b06ab08185d46958c855b8d0b77eab'
+2024-06-19 14:04:40.906 DEBUG -Using open Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393] for DELETE '/session/c0b06ab08185d46958c855b8d0b77eab'
+2024-06-19 14:04:41.103 DEBUG -
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/c0b06ab08185d46958c855b8d0b77eab HTTP/1.1
+User-Agent: selenium/4.10.0 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:40393
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Length: 14
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+
+2024-06-19 14:04:41.103 DEBUG -Adding key: http://localhost:40393 for channel [id: 0xdd8deabd, L:/127.0.0.1:51235 - R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:41.107 DEBUG -Channel Closed: [id: 0xdd8deabd, L:/127.0.0.1:51235 ! R:localhost/127.0.0.1:40393] with attribute DISCARD
+2024-06-19 14:04:41.299 DEBUG -Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:41.301 DEBUG -TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+2024-06-19 14:04:41.304 DEBUG -TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2024-06-19 14:04:41.306 DEBUG -TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2024-06-19 14:04:41.307 DEBUG -Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2024-06-19 14:04:41.612 DEBUG -Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:41.613 DEBUG -TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+2024-06-19 14:04:41.614 DEBUG -TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2024-06-19 14:04:41.615 DEBUG -TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2024-06-19 14:04:41.615 DEBUG -Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2024-06-19 14:04:41.697 DEBUG -Entry count for : http://localhost:51236 : 1
+2024-06-19 14:04:41.697 DEBUG -Entry count for : http://localhost:40393 : 1
+2024-06-19 14:04:41.708 DEBUG -Adding Candidate expired Channel [id: 0x46815ab9, L:/127.0.0.1:51242 ! R:localhost/127.0.0.1:51236] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-06-19 14:04:41.708 DEBUG -Closing Idle Channel [id: 0x46815ab9, L:/127.0.0.1:51242 ! R:localhost/127.0.0.1:51236]
+2024-06-19 14:04:41.708 DEBUG -Adding Candidate expired Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 ! R:localhost/127.0.0.1:40393] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-06-19 14:04:41.708 DEBUG -Closing Idle Channel [id: 0xdd8deabd, L:/127.0.0.1:51235 ! R:localhost/127.0.0.1:40393]
+2024-06-19 14:04:41.708 DEBUG -Closed 2 connections out of 2 in 11 ms
+2024-06-19 14:04:42.166 DEBUG -Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.167 DEBUG -TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+2024-06-19 14:04:42.169 DEBUG -TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2024-06-19 14:04:42.170 DEBUG -TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2024-06-19 14:04:42.170 DEBUG -Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2024-06-19 14:04:42.198 DEBUG -Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.199 DEBUG -TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+2024-06-19 14:04:42.200 DEBUG -TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2024-06-19 14:04:42.201 DEBUG -TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2024-06-19 14:04:42.201 DEBUG -Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2024-06-19 14:04:42.206 DEBUG -Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.207 DEBUG -TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+2024-06-19 14:04:42.209 DEBUG -TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2024-06-19 14:04:42.210 DEBUG -TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2024-06-19 14:04:42.210 DEBUG -Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2024-06-19 14:04:42.213 DEBUG -Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.215 DEBUG -TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+2024-06-19 14:04:42.229 DEBUG -TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2024-06-19 14:04:42.230 DEBUG -TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2024-06-19 14:04:42.230 DEBUG -Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2024-06-19 14:04:42.236 DEBUG -"spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-06-19 14:04:42.237 DEBUG -Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.241 DEBUG -TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+2024-06-19 14:04:42.242 DEBUG -TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2024-06-19 14:04:42.243 DEBUG -TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2024-06-19 14:04:42.243 DEBUG -Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2024-06-19 14:04:42.257 DEBUG -Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.258 DEBUG -TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+2024-06-19 14:04:42.259 DEBUG -TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2024-06-19 14:04:42.260 DEBUG -TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2024-06-19 14:04:42.260 DEBUG -Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2024-06-19 14:04:42.267 DEBUG -Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.268 DEBUG -TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+2024-06-19 14:04:42.272 DEBUG -TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2024-06-19 14:04:42.273 DEBUG -TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2024-06-19 14:04:42.274 DEBUG -Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2024-06-19 14:04:42.294 DEBUG -Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.295 DEBUG -TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+2024-06-19 14:04:42.296 DEBUG -TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2024-06-19 14:04:42.298 DEBUG -TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2024-06-19 14:04:42.298 DEBUG -Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2024-06-19 14:04:42.319 DEBUG -Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.320 DEBUG -TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+2024-06-19 14:04:42.321 DEBUG -TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2024-06-19 14:04:42.322 DEBUG -TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2024-06-19 14:04:42.322 DEBUG -Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2024-06-19 14:04:42.359 DEBUG -Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.364 DEBUG -TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+2024-06-19 14:04:42.365 DEBUG -TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2024-06-19 14:04:42.366 DEBUG -TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2024-06-19 14:04:42.366 DEBUG -Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2024-06-19 14:04:42.464 DEBUG -Couldn't find template in cache for "spark/partials/bdd-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.466 DEBUG -TemplateLoader.findTemplateSource("spark/partials/bdd-content_en_US.ftl"): Not found
+2024-06-19 14:04:42.467 DEBUG -TemplateLoader.findTemplateSource("spark/partials/bdd-content_en.ftl"): Not found
+2024-06-19 14:04:42.473 DEBUG -TemplateLoader.findTemplateSource("spark/partials/bdd-content.ftl"): Found
+2024-06-19 14:04:42.473 DEBUG -Loading template for "spark/partials/bdd-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/bdd-content.ftl"
+2024-06-19 14:04:42.581 DEBUG -Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.582 DEBUG -TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+2024-06-19 14:04:42.583 DEBUG -TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2024-06-19 14:04:42.584 DEBUG -TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2024-06-19 14:04:42.585 DEBUG -Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2024-06-19 14:04:42.592 DEBUG -Couldn't find template in cache for "spark/partials/category.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.595 DEBUG -TemplateLoader.findTemplateSource("spark/partials/category_en_US.ftl"): Not found
+2024-06-19 14:04:42.596 DEBUG -TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2024-06-19 14:04:42.598 DEBUG -TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2024-06-19 14:04:42.598 DEBUG -Loading template for "spark/partials/category.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2024-06-19 14:04:42.611 DEBUG -Couldn't find template in cache for "spark/partials/device.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.612 DEBUG -TemplateLoader.findTemplateSource("spark/partials/device_en_US.ftl"): Not found
+2024-06-19 14:04:42.613 DEBUG -TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2024-06-19 14:04:42.614 DEBUG -TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2024-06-19 14:04:42.614 DEBUG -Loading template for "spark/partials/device.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2024-06-19 14:04:42.617 DEBUG -Couldn't find template in cache for "spark/partials/author.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.618 DEBUG -TemplateLoader.findTemplateSource("spark/partials/author_en_US.ftl"): Not found
+2024-06-19 14:04:42.619 DEBUG -TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2024-06-19 14:04:42.620 DEBUG -TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2024-06-19 14:04:42.620 DEBUG -Loading template for "spark/partials/author.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2024-06-19 14:04:42.622 DEBUG -Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.625 DEBUG -TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+2024-06-19 14:04:42.626 DEBUG -TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2024-06-19 14:04:42.628 DEBUG -TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2024-06-19 14:04:42.628 DEBUG -Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2024-06-19 14:04:42.630 DEBUG -Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.632 DEBUG -TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+2024-06-19 14:04:42.633 DEBUG -TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2024-06-19 14:04:42.635 DEBUG -TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2024-06-19 14:04:42.635 DEBUG -Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2024-06-19 14:04:42.755 DEBUG -Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.760 DEBUG -TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+2024-06-19 14:04:42.761 DEBUG -TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2024-06-19 14:04:42.762 DEBUG -TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2024-06-19 14:04:42.762 DEBUG -Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2024-06-19 14:04:42.767 DEBUG -Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+2024-06-19 14:04:42.768 DEBUG -TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+2024-06-19 14:04:42.769 DEBUG -TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2024-06-19 14:04:42.771 DEBUG -TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2024-06-19 14:04:42.771 DEBUG -Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ADMIN/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
