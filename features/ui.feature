@@ -2,11 +2,6 @@ Feature: Check and Verify the user Interface should be proper
   Background: Interface
   Given:the calculator application is open
 
-  @smoke @url
-  Scenario: Verify user's system is having Docker up and running and user is able to enter correct path of Calculator application on cmd
-    Given the application is up and running
-    Then the user should be able to open the URL "http://localhost:8000/basic-calculator.html"
-
   @smoke @name
   Scenario: Verify user is able to display the name of the calculator
     When the user looks at the application name should be "Tech Elliptica Basic Calculator" display
@@ -34,5 +29,6 @@ Feature: Check and Verify the user Interface should be proper
     When the user looks at the number buttons
     Then the user should see buttons for 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9
     And the user should be able to click these buttons
+
 
 

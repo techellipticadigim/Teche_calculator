@@ -5,7 +5,6 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
 import org.modules.CalculatorModule;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,6 +16,8 @@ import java.time.Duration;
 import java.util.Objects;
 
 import static java.lang.Integer.parseInt;
+import static org.junit.Assert.assertTrue;
+import static org.pageobject.CalculatorScreenPageObject.*;
 
 public class StepDef {
 
@@ -94,8 +95,86 @@ public class StepDef {
     @When("the user looks at the application name should be {string} display")
     public void theUserLooksAtTheApplicationNameShouldBeDisplay(String expectedFormat) {
         String actualNameDisplay = calculatorModule.applicationName();
-        Assert.assertTrue(actualNameDisplay.contains(expectedFormat));
+        assertTrue(actualNameDisplay.contains(expectedFormat));
     }
+
+    @When("the user looks at the plus sign")
+    public void the_user_looks_at_the_plus_sign() {
+        logger.info("User looks at the plus sign");
+    }
+
+    @Then("the user should see and be able to click the plus sign")
+    public void the_user_should_see_and_be_able_to_click_the_plus_sign() throws Exception {
+        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_addition));
+        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_addition));
+        calculatorModule.verifyButton("add");
+        calculatorModule.clickButton("add");
+        logger.info("Plus sign is visible and clickable");
+        logger.info("Clicked the plus sign");
+
+    }
+
+    @When("the user looks at the minus sign")
+    public void theUserLooksAtTheMinusSign() {
+        logger.info("User looks at the Minus sign");
+    }
+
+    @Then("the user should see and be able to click the minus sign")
+    public void theUserShouldSeeAndBeAbleToClickTheMinusSign() throws Exception {
+        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_minus));
+        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_minus));
+        calculatorModule.verifyButton("sub");
+        calculatorModule.clickButton("sub");
+        logger.info("minus sign is visible and clickable");
+        logger.info("Clicked the minus sign");
+    }
+
+    @When("the user looks at the multiply sign")
+    public void theUserLooksAtTheMultiplySign() {
+        logger.info("User looks at the Multiply sign");
+    }
+
+    @Then("the user should see and be able to click the multiply sign")
+    public void theUserShouldSeeAndBeAbleToClickTheMultiplySign() throws Exception {
+        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_multiply));
+        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_multiply));
+        calculatorModule.verifyButton("mul");
+        calculatorModule.clickButton("mul");
+        logger.info("multiplicaion sign is visible and clickable");
+        logger.info("Clicked the Multiply sign");
+    }
+
+    @When("the user looks at the divide sign")
+    public void theUserLooksAtTheDivideSign() {
+        logger.info("User looks at the Division sign");
+    }
+
+    @Then("the user should see and be able to click the divide sign")
+    public void theUserShouldSeeAndBeAbleToClickTheDivideSign() throws Exception {
+        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_division));
+        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_division));
+        calculatorModule.verifyButton("div");
+        calculatorModule.clickButton("div");
+        logger.info("Division sign is visible and clickable");
+        logger.info("Clicked the division sign");
+    }
+
+    @When("the user looks at the equals sign")
+    public void theUserLooksAtTheEqualsSign() {
+        logger.info("User looks at the Equals sign");
+    }
+
+    @Then("the user should see and be able to click the equals sign")
+    public void theUserShouldSeeAndBeAbleToClickTheEqualsSign() throws Exception {
+        assertTrue("Plus button is not displayed", calculatorModule.isEnabled(btn_equals));
+        assertTrue("Plus button is not displayed", calculatorModule.isDisplayed(btn_equals));
+        calculatorModule.verifyButton("equals");
+        calculatorModule.clickButton("equals");
+        logger.info("equals sign is visible and clickable");
+        logger.info("Clicked the equals sign");
+    }
+
+
     @After
     public void teardown(){
         try{

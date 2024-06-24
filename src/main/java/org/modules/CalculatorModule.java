@@ -1,6 +1,7 @@
 package org.modules;
 
 import org.exception.InvalidCalculatorNumberException;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.slf4j.Logger;
@@ -99,6 +100,36 @@ public class CalculatorModule {
                 buttonElement = driver.findElement(btn_clear);
                 logger.debug("Clicked the clear button");
                 break;
+            case "zero":
+                buttonElement = driver.findElement(btn_0);
+                break;
+            case "one":
+                buttonElement = driver.findElement(btn_1);
+                break;
+            case "Two":
+                buttonElement = driver.findElement(btn_2);
+                break;
+            case "Three":
+                buttonElement = driver.findElement(btn_3);
+                break;
+            case "Four":
+                buttonElement = driver.findElement(btn_4);
+                break;
+            case "Five":
+                buttonElement = driver.findElement(btn_5);
+                break;
+            case "Six":
+                buttonElement = driver.findElement(btn_6);
+                break;
+            case "Seven":
+                buttonElement = driver.findElement(btn_7);
+                break;
+            case "Eight":
+                buttonElement = driver.findElement(btn_8);
+                break;
+            case "Nine":
+                buttonElement = driver.findElement(btn_9);
+                break;
             default:
                 throw new InvalidCalculatorNumberException("Invalid button type: " + buttonType);
         }
@@ -121,8 +152,58 @@ public class CalculatorModule {
 
  public void appTitle() {
         WebElement viewAppTitle = driver.findElement(title);
-        viewAppTitle.getText();
+     viewAppTitle.getSize();
  }
+
+    public boolean isEnabled(By by) {
+        return driver.findElement(by).isEnabled();
+    }
+
+    public boolean isDisplayed(By by) {
+        return driver.findElement(by).isDisplayed();
+    }
+
+    public boolean resultArea(By by) {
+        return driver.findElement(by).getText().contains("+");
+    }
+
+    public boolean verifyButton(String buttonType) {
+        WebElement buttonElement = null;
+        switch (buttonType) {
+            case "add":
+                buttonElement = driver.findElement(btn_addition);
+                break;
+            case "sub":
+                buttonElement = driver.findElement(btn_minus);
+                break;
+            case "div":
+                buttonElement = driver.findElement(btn_division);
+                break;
+            case "mul":
+                buttonElement = driver.findElement(btn_multiply);
+                break;
+            case "equals":
+                buttonElement = driver.findElement(btn_equals);
+                break;
+            case "dot":
+                buttonElement = driver.findElement(btn_dot);
+                break;
+            case "clear":
+                buttonElement = driver.findElement(btn_clear);
+                break;
+            default:
+                // If an invalid button type is provided, return false
+                return false;
+        }
+        // Check if the button element is not null and is displayed and enabled
+        if (buttonElement != null && buttonElement.isDisplayed() && buttonElement.isEnabled()) {
+            logger.debug("Button '{}' is displayed and enabled", buttonType);
+            return true;
+        } else {
+            logger.debug("Button '{}' is not displayed or enabled", buttonType);
+            return false;
+        }
+    }
 
 
    /* public void clickAddButton() {
