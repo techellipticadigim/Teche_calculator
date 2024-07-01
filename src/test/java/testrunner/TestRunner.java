@@ -9,9 +9,10 @@ import org.junit.runner.RunWith;
         features = "features",
         glue = "stepdef",
         dryRun = false,
-        tags = "@smoke",
+        tags = "@reporttest",
         plugin = { "pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "report.ITestStep"
         }
 )
 public class TestRunner {

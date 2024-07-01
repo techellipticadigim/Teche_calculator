@@ -1,7 +1,9 @@
 Feature: Verify Arithmetic Signs
+
   Background: the calculator application is open
     Given the calculator application is open
-  @smoke @plus
+
+  @smoke @plus @reporttest
   Scenario: Verify if the arithmetic sign "+" is visible and clickable
     When the user looks at the plus sign
     Then the user should see and be able to click the plus sign

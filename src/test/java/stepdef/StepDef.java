@@ -5,6 +5,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.modules.CalculatorModule;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,9 +30,10 @@ public class StepDef {
     @Given("the calculator application is open")
     public void the_calculator_application_is_open() {
         try {
-            String driverPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
+           // String driverPath = System.getProperty("user.dir") + "\\drivers\\chromedriver.exe";
             logger.info("Browser opened successfully.");
-            System.setProperty("webdriver.chrome.driver", driverPath);
+           // System.setProperty("webdriver.chrome.driver", driverPath);
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));

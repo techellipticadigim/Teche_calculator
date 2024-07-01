@@ -1,4 +1,5 @@
 Feature: Decimal Numbers of addition
+
   Background: application pre-requisite
     Given the calculator application is open
 
